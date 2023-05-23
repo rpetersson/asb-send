@@ -1,6 +1,7 @@
 import asyncio
 from azure.servicebus.aio import ServiceBusClient
 from azure.servicebus import ServiceBusMessage
+from azure.identity.aio import DefaultAzureCredential
 
 FULLY_QUALIFIED_NAMESPACE = "t-msg-ent-sbus"
 QUEUE_NAME = "d-stb-cm-onbase"
